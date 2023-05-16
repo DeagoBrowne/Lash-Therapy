@@ -1,4 +1,5 @@
 body {
+  box-sizing: border-box;
   margin: 0;
   padding: 0px;
   font-family: 'Marck Script', cursive;
@@ -25,6 +26,9 @@ body {
 
 /* header */
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   align-items: last baseline;
   padding-left: 20px;
@@ -46,7 +50,7 @@ h3 {
 
 /* main content */
 .main-section {
-  margin-top: 100px;
+  margin-top: 150px;
   /* border: 2px solid red; */
   display: flex;
   align-items: center;
@@ -78,6 +82,7 @@ h3 {
 }
 
 .gallery--grid {
+  margin-bottom: 2rem;
   border: 5px solid #C8A2C8;
   display: flex;
   flex-wrap: wrap;
