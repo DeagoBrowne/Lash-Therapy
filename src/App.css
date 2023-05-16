@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: 'Marck Script', cursive;
+  background-color: #fcddfc;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
+  align-items: last baseline;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  height: 80px;
+  background-color: #C8A2C8;
+}
+
+h3 {
+  margin: 0;
+}
+
+.nav--title {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+
+.main-section {
+  margin-top: 100px;
+  /* border: 2px solid red; */
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 17.5%;
+  margin-right: 17.5%;
 }
 
-.App-link {
-  color: #61dafb;
+.profile {
+  font-size: 26px;
+  /* border: solid 2px black; */
+  padding: 2rem;
+  line-height: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aboutMeImage {
+  width: 350px;
+  border: solid 5px #C8A2C8;
+  padding: 2rem;
 }
