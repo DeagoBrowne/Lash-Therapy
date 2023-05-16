@@ -5,6 +5,8 @@ body {
   background-color: #fcddfc;
 }
 
+
+
 .navbar {
   display: flex;
   align-items: last baseline;
@@ -12,6 +14,16 @@ body {
   padding-bottom: 10px;
   height: 80px;
   background-color: #C8A2C8;
+}
+
+@media only screen and (max-width: 1284px) {
+  .navbar {
+    justify-content: center;
+  }
+
+  .main-section {
+    flex-direction: column-reverse;
+  }
 }
 
 h3 {
