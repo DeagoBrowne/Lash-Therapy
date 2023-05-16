@@ -5,13 +5,15 @@ export default function AboutMe() {
   return (
     <main className="main-section">
       <p className="profile">
-        Hello , My name is Emily
+        Hello, <br />
+        My name is Emily, and <br />
         I have many years experience in beauty industry.
-        Not long recently started taking an interested to Lashes
-        1 year and 4 months experience
+        <br />
+        Recently, I've taken an interest in eyeLashes
+        (wink). <br />
+        1 year and 4 months experience. <br />
         Also love doing gel nails
-        Eyebrows ect
-        Something I really enjoy doing!
+        Eyebrows etc
       </p>
       <img src={EmilyPic} alt="" className="aboutMeImage" />
     </main>

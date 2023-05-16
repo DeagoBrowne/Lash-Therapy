@@ -19,6 +19,7 @@ body {
 @media only screen and (max-width: 1284px) {
   .navbar {
     justify-content: center;
+    padding-left: 0;
   }
 
   .main-section {
