@@ -7,7 +7,7 @@ export default function AboutMe() {
       <p className="profile">
         Hello, <br />
         My name is Emily, and <br />
-        I have many years experience in beauty industry.
+        I have many years' experience in beauty industry.
         <br />
         Recently, I've taken an interest in eyeLashes
         (wink). <br />
